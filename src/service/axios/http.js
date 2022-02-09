@@ -2,8 +2,6 @@ import {
     config
 } from './baseConfig'
 import axios from 'axios'
-console.log(
-    import.meta.env);
 /**
  * 导入配置文件
  */

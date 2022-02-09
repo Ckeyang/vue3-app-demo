@@ -3,7 +3,7 @@ const components = {
     helloWorld: _helloWorld
 }
 export default {
-    installComponent(app) {
+    installComponent(app: any) {
         Object.entries(components).map(item => {
             app.component(item[0], item[1])
         });
