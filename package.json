@@ -2,8 +2,9 @@
   "name": "my-vue3-app",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "vite --mode development",
+    "test": "vite --mode test",
+    "build": "vite build --mode production",
     "preview": "vite preview"
   },
   "dependencies": {

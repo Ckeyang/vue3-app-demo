@@ -1,5 +1,4 @@
-import env from 'root/env';
 export const config = {
-    baseURL: env[process.env.NODE_ENV].url,
+    baseURL: import.meta.env.VITE_APP_BASEAPI,
     timout: 50000
 }
