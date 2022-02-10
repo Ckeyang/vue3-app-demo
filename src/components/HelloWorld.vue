@@ -20,7 +20,7 @@ let doLogin = () => {
 </script>
 
 <template>
-  <section class="flex justify-center">
+  <section class="flex justify-center font-mono">
     <article class="tracking-wide leading-loose text-left">
       <h1>Hello,World!</h1>
       <article class="mt-8">

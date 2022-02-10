@@ -1,6 +1,7 @@
 import Home from '~/pages/home.vue';
-import About from '~/pages/about.vue'
-import TailApi from '~/pages/tailApi.vue'
+import About from '~/pages/about.vue';
+import TailApi from '~/pages/tailApi.vue';
+import ElementApi from '~/pages/elementApi.vue';
 import { createWebHistory, createRouter } from 'vue-router';
 class routerItem {
     constructor(path: string, name: string, component: any) {
@@ -18,6 +19,7 @@ let routes = [
     new routerItem('/home', 'home', Home),
     new routerItem('/about', 'about', About),
     new routerItem('/tailApi', 'tailApi', TailApi),
+    new routerItem('/elementApi', 'elementApi', ElementApi),
 ];
 const router = createRouter({
     history: createWebHistory(),

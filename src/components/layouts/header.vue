@@ -11,6 +11,7 @@
       <el-sub-menu index="2-4">
         <template #title>组件API</template>
         <el-menu-item index="tailApi">tailwind css</el-menu-item>
+        <el-menu-item index="elementApi">element plus</el-menu-item>
       </el-sub-menu>
     </el-menu>
   </el-header>
