@@ -1,6 +1,8 @@
 
 <template>
-  <my-header />
+  <el-affix :offset="0">
+    <my-header />
+  </el-affix>
   <el-main>
     <router-view></router-view>
   </el-main>

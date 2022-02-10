@@ -1,4 +1,6 @@
 
-<template><div>home</div></template>
+<template>
+  <section>home</section>
+</template>
 <script setup>
 </script>
