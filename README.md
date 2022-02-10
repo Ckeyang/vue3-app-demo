@@ -12,3 +12,13 @@
     环境配置 根目录下的.env
 
     最好使用yarn
+
+
+#### 第一次 运行
+   
+    yarn install
+    yarn dev
+
+#### 构建
+
+    yarn build
