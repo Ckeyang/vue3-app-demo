@@ -386,9 +386,12 @@
     </section>
     <section
       class="
+        shadow
+        bg-white
+        rounded-lg
         grid grid-cols-1
         sm:grid-cols-2 sm:px-8 sm:py-12 sm:gap-x-8
-        md:py-16
+        md:py-12 md:mx-12
       "
     >
       <div
