@@ -1,6 +1,6 @@
 <template>
   <section>
-    <section class="text-3xl pl-12">
+    <section class="text-3xl text-center pl-12">
       没错 这些都是去官网扒拉的
       <a class="text-blue-400" href="https://www.tailwindcss.cn/">
         tailwindcss
