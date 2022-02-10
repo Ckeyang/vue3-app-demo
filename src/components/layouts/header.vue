@@ -8,6 +8,10 @@
     >
       <el-menu-item index="home"> 首页 </el-menu-item>
       <el-menu-item index="about">关于</el-menu-item>
+      <el-sub-menu index="2-4">
+        <template #title>组件API</template>
+        <el-menu-item index="tailApi">tailwind css</el-menu-item>
+      </el-sub-menu>
     </el-menu>
   </el-header>
 </template>
