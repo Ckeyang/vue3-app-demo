@@ -6,8 +6,8 @@
       mode="horizontal"
       @select="handleSelect"
     >
-      <el-menu-item index="home"> Home </el-menu-item>
-      <el-menu-item index="about">About</el-menu-item>
+      <el-menu-item index="home"> 首页 </el-menu-item>
+      <el-menu-item index="about">关于</el-menu-item>
     </el-menu>
   </el-header>
 </template>
@@ -24,5 +24,5 @@ let handleSelect = (key: string, keyPath: string[]) => {
 </script>
 <style lang="sass" scoped>
 .el-header
-    padding: 0
+  padding: 0
 </style>

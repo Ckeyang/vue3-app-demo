@@ -6,7 +6,7 @@ interface person {
   age: number;
 }
 let user: person = {
-  name: "ckey",
+  name: "test",
   age: 28,
 };
 defineProps({
@@ -14,22 +14,29 @@ defineProps({
 });
 const state = reactive({ user });
 // let count = ref(0);
-let addCount = () => {
-  state.user.age++;
+let doLogin = () => {
   loginApi.login({ test: "test" }).then();
 };
 </script>
 
 <template>
-  <h1 class="colorred">{{ msg }}</h1>
-  <!-- <section>{{ state.user.name }}{{ state.user.age }}</section> -->
-  <el-button type="primary" @click="addCount">{{ state.user.age }}</el-button>
-  <!-- <button @click="addCount">test:{{ state.user.age }}</button> -->
+  <section class="flex justify-center">
+    <article class="tracking-wide leading-loose text-left">
+      <h1>Hello,World!</h1>
+      <article class="mt-8">
+        <h3>demo简介</h3>
+        <article class="mt-4">
+          <p>构建工具：vite</p>
+          <p>UI 框架: element-plus</p>
+          <p>预编译css: sass</p>
+          <p>基础css库: tailwindcss</p>
+          <p>ajax库: axios</p>
+          <p>路由管理: vue-router</p>
+        </article>
+      </article>
+    </article>
+  </section>
 </template>
 
 <style lang='scss' scoped>
-$colorRed: red;
-.colorred {
-  color: $colorRed;
-}
 </style>

@@ -1,6 +1,7 @@
 {
   "name": "my-vue3-app",
   "version": "0.0.0",
+  "author": "ckeyang",
   "scripts": {
     "dev": "vite --mode development",
     "test": "vite --mode test",

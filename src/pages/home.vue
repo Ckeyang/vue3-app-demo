@@ -1,7 +1,7 @@
 
 <template>
   <section>
-    <text class="text-red-400">home</text>
+    <hello-world msg="about me"></hello-world>
   </section>
 </template>
 <script setup>
