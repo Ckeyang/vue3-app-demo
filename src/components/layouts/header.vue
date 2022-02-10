@@ -14,7 +14,7 @@
 <script lang="ts" setup>
 import { reactive, ref } from "vue";
 import { useRouter } from "vue-router";
-const activeIndex = ref("1");
+const activeIndex = ref("home");
 const router = useRouter();
 let handleSelect = (key: string, keyPath: string[]) => {
   //   console.log(router);

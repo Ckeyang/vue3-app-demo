@@ -2,6 +2,7 @@
   "name": "my-vue3-app",
   "version": "0.0.0",
   "author": "ckeyang",
+  "email": "463650967@qq.com",
   "scripts": {
     "dev": "vite --mode development",
     "test": "vite --mode test",

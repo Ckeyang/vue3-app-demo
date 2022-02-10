@@ -8,11 +8,14 @@ import {
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/',
   plugins: [vue()],
   resolve: {
     alias: {
       '~': resolve(__dirname, 'src'),
-      'root': resolve(__dirname, '')
     }
+  },
+  server: {
+    host: "0.0.0.0"
   }
 })
