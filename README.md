@@ -1,7 +1,10 @@
 ### vue3 
 
     使用的vite
-    集成了 axios，element-plus,sass,tailwindcss
+    UI 框架 element-plus
+    预编译css sass
+    基础css库 tailwindcss
+    ajax库 axios
     路由管理 vue-router
 
     语言可以 typescript javascript
