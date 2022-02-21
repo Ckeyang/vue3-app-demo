@@ -4,14 +4,16 @@ import TailApi from '~/pages/tailApi.vue';
 import ElementApi from '~/pages/elementApi.vue';
 import { createWebHistory, createRouter } from 'vue-router';
 class routerItem {
-    constructor(path: string, name: string, component: any) {
+    constructor(path: string, name: string, component: any, children: Array<routerItem> = []) {
         this.path = path;
         this.name = name;
         this.component = component;
+        this.children = children;
     };
     path: string;
     name: string;
     component: any;
+    children: Array<routerItem>;
 }
 
 let routes = [

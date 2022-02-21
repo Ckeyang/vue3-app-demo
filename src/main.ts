@@ -2,8 +2,8 @@ import {
     createApp
 } from 'vue'
 import defaultLayout from '~/layouts/default.vue'
-import router from '~/router';
-import globalComponent from '~/globalComponent';
+import router from '~/router/router';
+import globalComponent from '~/plugins/globalComponent';
 import ElementPlus from 'element-plus';
 import '~/assets/common.css';
 import 'element-plus/dist/index.css'; //请将 组件css 放在 common 下面
