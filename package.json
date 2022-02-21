@@ -2,11 +2,13 @@
   "name": "my-vue3-app",
   "author": "ckeyang",
   "version": "0.0.1",
-  "contributors": [{
-    "name": "ckeyang",
-    "email": "463650967@qq.com",
-    "url": "https://github.com/Ckeyang"
-  }],
+  "contributors": [
+    {
+      "name": "ckeyang",
+      "email": "463650967@qq.com",
+      "url": "https://github.com/Ckeyang"
+    }
+  ],
   "license": "ISC",
   "scripts": {
     "dev": "vite --mode development",
@@ -22,7 +24,9 @@
     "sass": "^1.49.7",
     "tailwindcss": "^3.0.19",
     "vue": "^3.2.25",
-    "vue-router": "^4.0.12"
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",

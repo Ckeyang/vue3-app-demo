@@ -13,17 +13,21 @@
         <el-menu-item index="tailApi">tailwind css</el-menu-item>
         <el-menu-item index="elementApi">element plus</el-menu-item>
       </el-sub-menu>
+      <el-menu-item index="test">测试</el-menu-item>
     </el-menu>
   </el-header>
 </template>
 <script lang="ts" setup>
-import { reactive, ref } from "vue";
+import { ref } from "vue";
 import { useRouter } from "vue-router";
-const activeIndex = ref("home");
+import { useStore } from "vuex";
+const store = useStore();
 const router = useRouter();
+const activeIndex = ref(store.getters.getPath);
 let handleSelect = (key: string, keyPath: string[]) => {
   //   console.log(router);
   router.push(`/${key}`);
+  store.commit("SETPATH", key);
   //   console.log(key, keyPath);
 };
 </script>
